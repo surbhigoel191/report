@@ -32,7 +32,7 @@ outFile = process.argv[3] || 'output.pdf';
         });
         console.log(`generated ${outFile}`);
 
-        fs.unlinkSync(`template.html`);
+        // fs.unlinkSync(`template.html`);
 } catch (error) {
     console.log(error.stack);
 } finally {
